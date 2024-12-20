@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tomasjerabek-com.github.io/orientaceksedlcanky/sitemap.xml
