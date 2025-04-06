@@ -3,12 +3,36 @@
     <title>Orienťáček</title>
     <link href="https://orientaceksedlcanky.cz/feed.xml" rel="self" />
     <link href="https://orientaceksedlcanky.cz" />
-    <updated>2024-12-31T11:43:49+01:00</updated>
+    <updated>2025-04-06T22:52:19+02:00</updated>
     <author>
         <name>Tomáš Jeřábek</name>
     </author>
     <id>https://orientaceksedlcanky.cz</id>
 
+    <entry>
+        <title>Velikonoční orienťáček </title>
+        <author>
+            <name>Tomáš Jeřábek</name>
+        </author>
+        <link href="https://orientaceksedlcanky.cz/velikonocni-orientacek-3/"/>
+        <id>https://orientaceksedlcanky.cz/velikonocni-orientacek-3/</id>
+        <media:content url="https://orientaceksedlcanky.cz/media/posts/10/plakat_2025_velikonoce.jpg" medium="image" />
+
+        <updated>2025-04-06T22:51:14+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://orientaceksedlcanky.cz/media/posts/10/plakat_2025_velikonoce.jpg" alt="" />
+                    Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: https://www.orientaceksedlcanky.cz/velikonocni-orientacek
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://orientaceksedlcanky.cz/media/posts/10/plakat_2025_velikonoce.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: <a href="https://www.orientaceksedlcanky.cz/velikonocni-orientacek">https://www.orientaceksedlcanky.cz/velikonocni-orientacek</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Vánoční lodičky</title>
         <author>

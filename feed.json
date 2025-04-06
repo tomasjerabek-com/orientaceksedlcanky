@@ -11,6 +11,21 @@
     },
     "items": [
         {
+            "id": "https://orientaceksedlcanky.cz/velikonocni-orientacek-3/",
+            "url": "https://orientaceksedlcanky.cz/velikonocni-orientacek-3/",
+            "title": "Velikonoční orienťáček ",
+            "summary": "Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: https://www.orientaceksedlcanky.cz/velikonocni-orientacek",
+            "content_html": "<p>Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: <a href=\"https://www.orientaceksedlcanky.cz/velikonocni-orientacek\">https://www.orientaceksedlcanky.cz/velikonocni-orientacek</a></p>\n<p> </p>",
+            "image": "https://orientaceksedlcanky.cz/media/posts/10/plakat_2025_velikonoce.jpg",
+            "author": {
+                "name": "Tomáš Jeřábek"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-04-06T22:51:14+02:00",
+            "date_modified": "2025-04-06T22:52:19+02:00"
+        },
+        {
             "id": "https://orientaceksedlcanky.cz/vanocni-lodicky/",
             "url": "https://orientaceksedlcanky.cz/vanocni-lodicky/",
             "title": "Vánoční lodičky",
