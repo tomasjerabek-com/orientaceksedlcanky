@@ -3,12 +3,30 @@
     <title>Orienťáček</title>
     <link href="https://orientaceksedlcanky.cz/feed.xml" rel="self" />
     <link href="https://orientaceksedlcanky.cz" />
-    <updated>2025-04-06T22:52:19+02:00</updated>
+    <updated>2025-08-14T21:43:34+02:00</updated>
     <author>
         <name>Tomáš Jeřábek</name>
     </author>
     <id>https://orientaceksedlcanky.cz</id>
 
+    <entry>
+        <title>Závod v parku na Zájezdě 2025</title>
+        <author>
+            <name>Tomáš Jeřábek</name>
+        </author>
+        <link href="https://orientaceksedlcanky.cz/zavod-v-parku-na-zajezde-2025/"/>
+        <id>https://orientaceksedlcanky.cz/zavod-v-parku-na-zajezde-2025/</id>
+        <media:content url="https://orientaceksedlcanky.cz/media/posts/11/plakat_zavod_2025_FB-2.jpg" medium="image" />
+
+        <updated>2025-08-14T21:42:06+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://orientaceksedlcanky.cz/media/posts/11/plakat_zavod_2025_FB-2.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://orientaceksedlcanky.cz/media/posts/11/plakat_zavod_2025_FB.jpg" alt="" width="3366" height="3846" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://orientaceksedlcanky.cz/media/posts/11/responsive/plakat_zavod_2025_FB-xs.jpg 300w ,https://orientaceksedlcanky.cz/media/posts/11/responsive/plakat_zavod_2025_FB-sm.jpg 480w ,https://orientaceksedlcanky.cz/media/posts/11/responsive/plakat_zavod_2025_FB-md.jpg 768w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Velikonoční orienťáček </title>
         <author>
