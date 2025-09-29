@@ -3,7 +3,7 @@
     <title>Orienťáček</title>
     <link href="https://orientaceksedlcanky.cz/feed.xml" rel="self" />
     <link href="https://orientaceksedlcanky.cz" />
-    <updated>2025-08-14T21:43:34+02:00</updated>
+    <updated>2025-09-29T10:35:17+02:00</updated>
     <author>
         <name>Tomáš Jeřábek</name>
     </author>
@@ -23,7 +23,15 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://orientaceksedlcanky.cz/media/posts/11/plakat_zavod_2025_FB-2.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://orientaceksedlcanky.cz/media/posts/11/plakat_zavod_2025_FB.jpg" alt="" width="3366" height="3846" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://orientaceksedlcanky.cz/media/posts/11/responsive/plakat_zavod_2025_FB-xs.jpg 300w ,https://orientaceksedlcanky.cz/media/posts/11/responsive/plakat_zavod_2025_FB-sm.jpg 480w ,https://orientaceksedlcanky.cz/media/posts/11/responsive/plakat_zavod_2025_FB-md.jpg 768w"></figure>
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/WhatsApp-Image-2025-09-11-at-18.10.48.jpeg" data-size="2000x1125"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/WhatsApp-Image-2025-09-11-at-18.10.48-thumbnail.jpeg" alt="" width="768" height="432"></a></figure>
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/WhatsApp-Image-2025-09-11-at-17.41.44.jpeg" data-size="1536x2048"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/WhatsApp-Image-2025-09-11-at-17.41.44-thumbnail.jpeg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/WhatsApp-Image-2025-09-11-at-17.41.47.jpeg" data-size="1536x2048"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/WhatsApp-Image-2025-09-11-at-17.41.47-thumbnail.jpeg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_162745338_HDR.jpg" data-size="4096x3072"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_162745338_HDR-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_165116639.jpg" data-size="8192x6144"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_165116639-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_170230058_HDR.jpg" data-size="4096x3072"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_170230058_HDR-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_170437972_HDR.jpg" data-size="4096x3072"><img loading="lazy" src="https://orientaceksedlcanky.cz/media/posts/11/gallery/IMG_20250907_170437972_HDR-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+</div></div>
             ]]>
         </content>
     </entry>
