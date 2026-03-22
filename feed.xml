@@ -3,12 +3,36 @@
     <title>Orienťáček</title>
     <link href="https://orientaceksedlcanky.cz/feed.xml" rel="self" />
     <link href="https://orientaceksedlcanky.cz" />
-    <updated>2025-09-29T10:35:17+02:00</updated>
+    <updated>2026-03-22T20:39:17+01:00</updated>
     <author>
         <name>Tomáš Jeřábek</name>
     </author>
     <id>https://orientaceksedlcanky.cz</id>
 
+    <entry>
+        <title>Velikonoční orienťáček  2026</title>
+        <author>
+            <name>Tomáš Jeřábek</name>
+        </author>
+        <link href="https://orientaceksedlcanky.cz/velikonocni-orientacek-4/"/>
+        <id>https://orientaceksedlcanky.cz/velikonocni-orientacek-4/</id>
+        <media:content url="https://orientaceksedlcanky.cz/media/posts/12/orientacek_velikonoce_plakat.jpg" medium="image" />
+
+        <updated>2026-03-22T20:23:03+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://orientaceksedlcanky.cz/media/posts/12/orientacek_velikonoce_plakat.jpg" alt="" />
+                    Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: https://www.orientaceksedlcanky.cz/velikonocni-orientacek
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://orientaceksedlcanky.cz/media/posts/12/orientacek_velikonoce_plakat.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: <a href="https://www.orientaceksedlcanky.cz/velikonocni-orientacek">https://www.orientaceksedlcanky.cz/velikonocni-orientacek</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Závod v parku na Zájezdě 2025</title>
         <author>
@@ -45,7 +69,7 @@
         <media:content url="https://orientaceksedlcanky.cz/media/posts/10/plakat_2025_velikonoce.jpg" medium="image" />
 
         <updated>2025-04-06T22:51:14+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://orientaceksedlcanky.cz/media/posts/10/plakat_2025_velikonoce.jpg" alt="" />
                     Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: https://www.orientaceksedlcanky.cz/velikonocni-orientacek
@@ -98,7 +122,7 @@
         <media:content url="https://orientaceksedlcanky.cz/media/posts/8/WhatsApp-Image-2024-12-03-at-19.32.30.jpeg" medium="image" />
 
         <updated>2024-12-20T11:46:56+01:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://orientaceksedlcanky.cz/media/posts/8/WhatsApp-Image-2024-12-03-at-19.32.30.jpeg" alt="" />
                     Již tradičně jsme v týdnu, kdy chodí Mikuláš, udělali speciální trénink s orientací v ulicích Sedlčánek. Tentokrát nikdo do Císařské&hellip;
@@ -125,7 +149,7 @@
         <media:content url="https://orientaceksedlcanky.cz/media/posts/7/WhatsApp-Image-2024-09-28-at-15.03.52.jpeg" medium="image" />
 
         <updated>2024-12-20T11:44:37+01:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://orientaceksedlcanky.cz/media/posts/7/WhatsApp-Image-2024-09-28-at-15.03.52.jpeg" alt="" />
                     28. září jsme se zúčastnili oblastního závodu v orientačním běhu v Nové Pace.
@@ -173,7 +197,7 @@
         <media:content url="https://orientaceksedlcanky.cz/media/posts/5/plakat-2024-velikonoce-2.png" medium="image" />
 
         <updated>2024-03-20T11:29:00+01:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://orientaceksedlcanky.cz/media/posts/5/plakat-2024-velikonoce-2.png" alt="" />
                     Po roce tu máme opět již tradiční Velikonoční orienťáček. Podrobnosti najdete tady: https://www.orientaceksedlcanky.cz/velikonocni-orientacek
@@ -197,7 +221,7 @@
         <media:content url="https://orientaceksedlcanky.cz/media/posts/6/objev-sck.jpg" medium="image" />
 
         <updated>2023-12-23T11:37:00+01:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://orientaceksedlcanky.cz/media/posts/6/objev-sck.jpg" alt="" />
                     V průběhu léta je také ideální čas na to si projít a prozkoumat Sedlčánky a Císařskou Kuchyni s pomocí mapy,&hellip;
