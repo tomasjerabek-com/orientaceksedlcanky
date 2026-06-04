@@ -3,12 +3,40 @@
     <title>Orienťáček</title>
     <link href="https://orientaceksedlcanky.cz/feed.xml" rel="self" />
     <link href="https://orientaceksedlcanky.cz" />
-    <updated>2026-03-22T20:39:17+01:00</updated>
+    <updated>2026-06-04T11:42:43+02:00</updated>
     <author>
         <name>Tomáš Jeřábek</name>
     </author>
     <id>https://orientaceksedlcanky.cz</id>
 
+    <entry>
+        <title>Dotazník</title>
+        <author>
+            <name>Tomáš Jeřábek</name>
+        </author>
+        <link href="https://orientaceksedlcanky.cz/dotaznik/"/>
+        <id>https://orientaceksedlcanky.cz/dotaznik/</id>
+        <media:content url="https://orientaceksedlcanky.cz/media/posts/13/Dotaznik_SPRM_Celakovice_QR_kod-2.jpg" medium="image" />
+
+        <updated>2026-06-04T11:25:52+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://orientaceksedlcanky.cz/media/posts/13/Dotaznik_SPRM_Celakovice_QR_kod-2.jpg" alt="" />
+                    Město Čelákovice zpracovává Strategický plán rozvoje města Čelákovic do roku 2050. Jednou z důležitých aktivit je dotazníkové šetření. Elektronickou či&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://orientaceksedlcanky.cz/media/posts/13/Dotaznik_SPRM_Celakovice_QR_kod-2.jpg" class="type:primaryImage" alt="" /></p>
+                <div><strong>Město Čelákovice zpracovává Strategický plán rozvoje města Čelákovic do roku 2050. Jednou z důležitých aktivit je dotazníkové šetření. Elektronickou či tištěnou verzi dotazníku je možné vyplnit do pátku 26. 6. 2026.</strong></div>
+<div> </div>
+<div>Elektronická verze dotazníku je dostupná na portálu Survio na odkazu </div>
+<div><u><a href="https://www.survio.com/survey/d/V1G2R1D0I2P8Y2U9C" rel="noopener noreferrer" target="_blank">https://www.survio.com/survey/d/V1G2R1D0I2P8Y2U9C</a></u></div>
+<div> </div>
+<div> </div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Velikonoční orienťáček  2026</title>
         <author>
