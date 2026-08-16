@@ -1,0 +1,20 @@
+---
+interface Props {
+	images: string[];
+	altPrefix?: string;
+}
+
+const { images, altPrefix = 'Fotografie' } = Astro.props;
+---
+
+{
+	images.length > 0 && (
+		<div class="gallery-grid">
+			{images.map((src, index) => (
+				<a href={src} target="_blank" rel="noopener noreferrer">
+					<img src={src} alt={`${altPrefix} ${index + 1}`} loading="lazy" width="600" height="600" />
+				</a>
+			))}
+		</div>
+	)
+}

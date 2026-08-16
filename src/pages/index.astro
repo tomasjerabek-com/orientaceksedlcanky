@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { site } from '../data/site';
+
+const articles = (await getCollection('articles'))
+	.filter((entry) => !entry.data.draft)
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title={site.name} description={site.description} image={site.heroImage} canonical="/">
+	<section class="hero" aria-label="Úvod">
+		<div class="hero__media">
+			<img src={site.heroImage} alt="Závodníci Orienťáčku v terénu" width="1600" height="1067" fetchpriority="high" />
+		</div>
+		<div class="hero__shade"></div>
+		<div class="hero__content">
+			<div class="hero__logo">
+				<img src={site.logo} alt={site.fullName} width="500" height="230" />
+			</div>
+			<h1>{site.fullName}</h1>
+			<p>
+				Oddíl orientačního běhu pro děti i dospělé ze Sedlčánek a okolí. Trénujeme, závodíme a objevujeme krajinu s mapou v ruce.
+			</p>
+			<div class="cta-row">
+				<a class="button button--primary" href="/velikonocni-orientacek/">Velikonoční orienťáček</a>
+				<a class="button button--ghost" href="#aktuality">Nejnovější aktuality</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="aktuality">
+		<div class="container">
+			<div class="section__head">
+				<span class="section__eyebrow">Aktuality</span>
+				<h2>Co je u Orienťáčku nového</h2>
+				<p>Závody, tréninky a společné akce z našeho oddílového života.</p>
+			</div>
+
+			<div class="article-grid">
+				{
+					articles.map((article, index) => (
+						<ArticleCard
+							href={`/${article.id}/`}
+							title={article.data.title}
+							description={article.data.description}
+							image={article.data.image}
+							date={article.data.pubDate}
+							style={`animation-delay: ${Math.min(index, 8) * 0.05}s`}
+						/>
+					))
+				}
+			</div>
+		</div>
+	</section>
+</BaseLayout>

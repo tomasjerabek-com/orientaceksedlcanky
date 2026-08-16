@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GalleryGrid from '../components/GalleryGrid.astro';
+---
+
+<BaseLayout
+	title="Velikonoční orienťáček"
+	description="Pro kohokoliv, kdykoliv od 25. března do 15. dubna 2026. START, CÍL a 10 kontrol v okolí Sedlčánek."
+	image="/media/posts/3/gallery/orientacek_velikonoce_plakat.jpg"
+	canonical="/velikonocni-orientacek/"
+>
+	<section class="section" style="padding-top: 2rem;">
+		<div class="container">
+			<header class="page-hero">
+				<span class="section__eyebrow">Tradiční akce</span>
+				<h1>Velikonoční orienťáček</h1>
+				<p>Volná trať s QR kódy kolem Sedlčánek — ideální tip na jarní výlet s mapou.</p>
+			</header>
+
+			<div class="callout" style="margin-bottom: 2rem;">
+				<ul style="margin: 0; padding-left: 1.1rem; display: grid; gap: 0.4rem;">
+					<li>pro kohokoliv</li>
+					<li>kdykoliv od <strong>25. března do 15. dubna 2026</strong></li>
+					<li>
+						START, CÍL a <strong>10 kontrol</strong> v okolí Sedlčánek (pořadí kontrol si volíte sami)
+					</li>
+				</ul>
+			</div>
+
+			<GalleryGrid
+				images={[
+					'/media/posts/3/gallery/orientacek_velikonoce_plakat.jpg',
+					'/media/posts/3/gallery/WhatsApp-Image-2025-04-05-at-15.53.11.jpeg',
+				]}
+				altPrefix="Velikonoční orienťáček"
+			/>
+			<p style="color: var(--muted); margin: 0.75rem 0 2rem;"><em>Pozvánka a ukázka kontroly</em></p>
+
+			<div class="prose">
+				<h2>S sebou budete potřebovat</h2>
+				<ul>
+					<li>mobilní telefon s nainstalovanou aplikací iOrienteering (v terénu nejsou potřeba data)</li>
+					<li>mapu se zákresem kontrol</li>
+				</ul>
+
+				<figure class="featured-image">
+					<img
+						src="/media/posts/3/gallery/velikonocni_orientacek_2026-2.png"
+						alt="Mapa Velikonočního orienťáčku 2026"
+						width="1200"
+						height="845"
+					/>
+				</figure>
+				<p><em>Mapa</em></p>
+				<p>
+					Možno si trasu projít pouze s mapou a najít 10 zvířátek, ale budete ochuzeni o skenování QR kódů,
+					nebudete znát váš výsledný čas a nebudete ve výsledkové listině.
+				</p>
+
+				<h2>Co připravit doma</h2>
+				<ul>
+					<li>vytisknout si mapu (nebo ji mít na tabletu nebo v mobilu)</li>
+					<li>stáhnout si aplikaci iOrienteering:</li>
+				</ul>
+
+				<div class="store-badges">
+					<a
+						href="https://play.google.com/store/apps/details?id=com.iorienteering.mobile&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img
+							src="https://play.google.com/intl/en_us/badges/static/images/badges/cs_badge_web_generic.png"
+							alt="Nyní na Google Play"
+							width="175"
+							height="68"
+						/>
+					</a>
+					<a href="https://apps.apple.com/us/app/iorienteering/id662759860" target="_blank" rel="noopener noreferrer">
+						<img src="/media/posts/3/app-store-2.png" alt="Stáhnout v App Store" width="200" height="86" />
+					</a>
+				</div>
+
+				<ul>
+					<li>
+						zaregistrovat se do aplikace (není to složité — vaše uživatelské jméno, které si zvolíte, bude
+						vidět ve výsledcích)
+					</li>
+				</ul>
+
+				<h2>Co dělat, až se vydáte „závodit“</h2>
+				<ul>
+					<li>
+						klikněte na „Načtení události“ v aplikaci a naskenujte QR kód, který je zde, na mapě a bude i na
+						startu:
+					</li>
+				</ul>
+
+				<figure class="featured-image" style="max-width: 18rem;">
+					<img src="/media/posts/3/qr_velikonoce.png" alt="QR kód pro načtení události" width="257" height="281" />
+				</figure>
+
+				<ul>
+					<li>
+						jděte dle mapy na START a naskenujte <strong>startovní</strong> QR kód — od této chvíle vám běží
+						čas (nahoře na obrazovce je časomíra)
+					</li>
+					<li>
+						postupně oběhněte/obejděte všech 10 kontrol a na každé naskenujte QR kód (jakmile se kód naskenuje,
+						objeví se v aplikaci zaznamenaná kontrola a mezičas)
+					</li>
+					<li>
+						běžte dle mapy do CÍLE a naskenujte cílový QR kód — zastaví se čas a výsledek můžete odeslat
+						kliknutím na „Nahrát výsledky?“
+					</li>
+					<li>a máte hotovo a můžete běžet znovu, zlepšit svůj čas a překonat kamarády</li>
+				</ul>
+
+				<p><strong>Orienťáčku, zdar!</strong></p>
+			</div>
+		</div>
+	</section>
+</BaseLayout>

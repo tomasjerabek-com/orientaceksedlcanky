@@ -1,0 +1,31 @@
+---
+interface Props {
+	href: string;
+	title: string;
+	description?: string;
+	image?: string;
+	date?: Date;
+	style?: string;
+}
+
+const { href, title, description, image, date, style } = Astro.props;
+
+const formatted = date
+	? date.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' })
+	: undefined;
+---
+
+<a class="article-card" href={href} style={style}>
+	{
+		image && (
+			<div class="article-card__media">
+				<img src={image} alt="" loading="lazy" width="640" height="440" />
+			</div>
+		)
+	}
+	<div class="article-card__body">
+		{formatted && <span class="article-card__date">{formatted}</span>}
+		<h3>{title}</h3>
+		{description && <p>{description}</p>}
+	</div>
+</a>

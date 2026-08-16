@@ -1,0 +1,63 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GalleryGrid from '../components/GalleryGrid.astro';
+
+export async function getStaticPaths() {
+	const articles = await getCollection('articles');
+	return articles.map((article) => ({
+		params: { slug: article.id },
+		props: { article },
+	}));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+const date = article.data.pubDate.toLocaleDateString('cs-CZ', {
+	day: 'numeric',
+	month: 'long',
+	year: 'numeric',
+});
+---
+
+<BaseLayout
+	title={article.data.title}
+	description={article.data.description || article.data.title}
+	image={article.data.image || '/brand/logo.png'}
+	canonical={`/${article.id}/`}
+>
+	<article class="section" style="padding-top: 2.5rem;">
+		<div class="container">
+			<header class="page-hero" style="padding-top: 0;">
+				<p class="meta-row"><time datetime={article.data.pubDate.toISOString()}>{date}</time></p>
+				<h1>{article.data.title}</h1>
+				{article.data.description && <p>{article.data.description}</p>}
+			</header>
+
+			{
+				article.data.image && (
+					<figure class="featured-image">
+						<img src={article.data.image} alt="" width="1200" height="800" />
+					</figure>
+				)
+			}
+
+			<div class="prose">
+				<Content />
+			</div>
+
+			{
+				article.data.gallery.length > 0 && (
+					<section style="margin-top: 2.5rem;">
+						<h2 style="margin-bottom: 1rem;">Galerie</h2>
+						<GalleryGrid images={article.data.gallery} altPrefix={article.data.title} />
+					</section>
+				)
+			}
+
+			<p style="margin-top: 2.5rem;">
+				<a class="button button--solid" href="/">← Zpět na aktuality</a>
+			</p>
+		</div>
+	</article>
+</BaseLayout>

@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GalleryGrid from '../components/GalleryGrid.astro';
+import { gallerySections } from '../data/gallery';
+---
+
+<BaseLayout
+	title="Galerie"
+	description="Fotografie z tréninků, závodů a zakončení sezony Orienťáčku Sedlčánky."
+	image="/media/posts/2/gallery/zakonceni20242.jpeg"
+	canonical="/galerie/"
+>
+	<section class="section" style="padding-top: 2rem;">
+		<div class="container">
+			<header class="page-hero">
+				<span class="section__eyebrow">Vzpomínky z terénu</span>
+				<h1>Galerie</h1>
+				<p>Okamžiky z našich závodů, tréninků a společných akcí.</p>
+			</header>
+
+			{
+				gallerySections.map((section) => (
+					<section class="gallery-section">
+						<h2>{section.title}</h2>
+						<GalleryGrid images={section.images} altPrefix={section.title} />
+					</section>
+				))
+			}
+		</div>
+	</section>
+</BaseLayout>

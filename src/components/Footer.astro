@@ -1,0 +1,33 @@
+---
+import { site } from '../data/site';
+
+const reversedEmail = site.email.split('').reverse().join('');
+---
+
+<footer class="site-footer">
+	<div class="container site-footer__inner">
+		<img class="site-footer__banner" src={site.kidsBanner} alt="" width="1243" height="250" />
+
+		<p>
+			<a
+				href="#"
+				data-email={reversedEmail}
+				onclick="this.href='mailto:'+this.dataset.email.split('').reverse().join('')"
+				style="unicode-bidi:bidi-override;direction:rtl"
+			>
+				{reversedEmail}
+			</a>
+		</p>
+
+		<address>
+			<strong>{site.legalName}</strong><br />
+			{site.address[0]}<br />
+			{site.address[1]}
+		</address>
+
+		<div class="site-footer__support">
+			<img src={site.cityLogo} alt="Město Čelákovice" width="80" height="80" />
+			<span>Činnost spolku je finančně podporována městem Čelákovice.</span>
+		</div>
+	</div>
+</footer>
