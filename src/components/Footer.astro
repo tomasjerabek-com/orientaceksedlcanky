@@ -2,22 +2,23 @@
 import { site } from '../data/site';
 
 const reversedEmail = site.email.split('').reverse().join('');
-const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
 	<div class="container site-footer__inner">
-		<img class="site-footer__banner" src={site.kidsBanner} alt="" width="1243" height="250" loading="lazy" />
+		<img class="site-footer__banner" src={site.kidsBanner} alt="" width="400" loading="lazy" />
 
-		<p>
-			<a
-				href="#"
-				data-email={reversedEmail}
-				onclick="this.href='mailto:'+this.dataset.email.split('').reverse().join('')"
-				style="unicode-bidi:bidi-override;direction:rtl"
-			>
-				{reversedEmail}
-			</a>
+		<p class="site-footer__email">
+			✉️ <strong>
+				<a
+					href="#"
+					data-email={reversedEmail}
+					onclick="this.href='mailto:'+this.dataset.email.split('').reverse().join('')"
+					style="unicode-bidi:bidi-override;direction:rtl"
+				>
+					{reversedEmail}
+				</a>
+			</strong>
 		</p>
 
 		<address>
@@ -26,11 +27,9 @@ const year = new Date().getFullYear();
 			{site.address[1]}
 		</address>
 
-		<div class="site-footer__support">
-			<img class="site-footer__city-logo" src={site.cityLogo} alt="Město Čelákovice" width="80" height="80" />
-			<span>Činnost spolku je finančně podporována městem Čelákovice.</span>
-		</div>
+		<p class="site-footer__support">
+			<img class="site-footer__city-logo" src={site.cityLogo} alt="Město Čelákovice" width="50" height="55" />
+			Činnost spolku je finančně podporována městem Čelákovice.
+		</p>
 	</div>
-
-	<div class="site-footer__legal">© {year} {site.fullName}</div>
 </footer>
