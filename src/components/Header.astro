@@ -5,24 +5,29 @@ const path = Astro.url.pathname;
 ---
 
 <header class="site-header">
-	<div class="container site-header__inner">
-		<a class="brand-link" href="/" aria-label={site.fullName}>
-			<img src={site.logo} alt={site.fullName} width="500" height="230" />
-		</a>
+	<div class="container site-header__shell">
+		<div class="site-header__inner">
+			<a class="brand-link" href="/" aria-label={site.fullName}>
+				<img src={site.logo} alt={site.fullName} width="500" height="230" />
+			</a>
 
-		<nav class="nav" aria-label="Hlavní navigace">
-			{
-				site.nav.map((item) => (
-					<a href={item.href} aria-current={path === item.href || (item.href !== '/' && path.startsWith(item.href)) ? 'page' : undefined}>
-						{item.label}
-					</a>
-				))
-			}
-		</nav>
+			<nav class="nav" aria-label="Hlavní navigace">
+				{
+					site.nav.map((item) => (
+						<a
+							href={item.href}
+							aria-current={path === item.href || (item.href !== '/' && path.startsWith(item.href)) ? 'page' : undefined}
+						>
+							{item.label}
+						</a>
+					))
+				}
+			</nav>
 
-		<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu">
-			<span></span>
-		</button>
+			<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu">
+				<span></span>
+			</button>
+		</div>
 	</div>
 
 	<nav id="mobile-nav" class="container mobile-nav" aria-label="Mobilní navigace">

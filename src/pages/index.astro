@@ -11,21 +11,47 @@ const articles = (await getCollection('articles'))
 
 <BaseLayout title={site.name} description={site.description} image={site.heroImage} canonical="/">
 	<section class="hero" aria-label="Úvod">
-		<div class="hero__media">
-			<img src={site.heroImage} alt="Závodníci Orienťáčku v terénu" width="1600" height="1067" fetchpriority="high" />
-		</div>
-		<div class="hero__shade"></div>
-		<div class="hero__content">
-			<div class="hero__logo">
-				<img src={site.logo} alt={site.fullName} width="500" height="230" />
+		<div class="container hero__grid">
+			<div class="hero__panel">
+				<div class="hero__media">
+					<img src={site.heroImage} alt="Závodníci Orienťáčku v terénu" width="1600" height="1067" fetchpriority="high" />
+				</div>
+				<div class="hero__shade"></div>
+				<div class="hero__content">
+					<span class="hero__badge">Orientační běh · Sedlčánky</span>
+					<div class="hero__logo">
+						<img src={site.logo} alt={site.fullName} width="500" height="230" />
+					</div>
+					<h1>{site.fullName}</h1>
+					<p class="hero__lead">
+						Oddíl orientačního běhu pro děti i dospělé ze Sedlčánek a okolí. Trénujeme, závodíme a objevujeme krajinu s mapou v ruce.
+					</p>
+					<div class="cta-row">
+						<a class="button button--primary" href="/velikonocni-orientacek/">Velikonoční orienťáček</a>
+						<a class="button button--ghost" href="#aktuality">Nejnovější aktuality</a>
+					</div>
+				</div>
 			</div>
-			<h1>{site.fullName}</h1>
-			<p>
-				Oddíl orientačního běhu pro děti i dospělé ze Sedlčánek a okolí. Trénujeme, závodíme a objevujeme krajinu s mapou v ruce.
-			</p>
-			<div class="cta-row">
-				<a class="button button--primary" href="/velikonocni-orientacek/">Velikonoční orienťáček</a>
-				<a class="button button--ghost" href="#aktuality">Nejnovější aktuality</a>
+
+			<div class="hero__aside">
+				<div class="hero-card hero-card--accent">
+					<p class="hero-card__label">Tradiční akce</p>
+					<p class="hero-card__title">Velikonoční orienťáček 2026</p>
+					<p class="hero-card__text">Volná trať s QR kódy kolem Sedlčánek — 10 kontrol, mapa a aplikace iOrienteering.</p>
+					<a class="hero-card__link" href="/velikonocni-orientacek/">Jak se zúčastnit</a>
+				</div>
+				<div class="hero-card">
+					<p class="hero-card__label">Pro nováčky</p>
+					<p class="hero-card__title">Mapový klíč</p>
+					<p class="hero-card__text">Naučte se číst mapové značky orientačního běhu.</p>
+					<a class="hero-card__link" href="/mapovy-klic/">Zobrazit klíč</a>
+				</div>
+				<div class="hero-card">
+					<p class="hero-card__label">Vzpomínky</p>
+					<p class="hero-card__title">Galerie</p>
+					<p class="hero-card__text">Fotky ze závodů, tréninků a zakončení sezony.</p>
+					<a class="hero-card__link" href="/galerie/">Prohlédnout fotky</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -33,9 +59,12 @@ const articles = (await getCollection('articles'))
 	<section class="section" id="aktuality">
 		<div class="container">
 			<div class="section__head">
-				<span class="section__eyebrow">Aktuality</span>
-				<h2>Co je u Orienťáčku nového</h2>
-				<p>Závody, tréninky a společné akce z našeho oddílového života.</p>
+				<div class="section__head-text">
+					<span class="section__eyebrow">Aktuality</span>
+					<h2>Co je u Orienťáčku nového</h2>
+					<p>Závody, tréninky a společné akce z našeho oddílového života.</p>
+				</div>
+				<a class="button button--outline" href="/rss.xml">RSS feed</a>
 			</div>
 
 			<div class="article-grid">
@@ -47,7 +76,7 @@ const articles = (await getCollection('articles'))
 							description={article.data.description}
 							image={article.data.image}
 							date={article.data.pubDate}
-							style={`animation-delay: ${Math.min(index, 8) * 0.05}s`}
+							style={`animation-delay: ${Math.min(index, 8) * 0.06}s`}
 						/>
 					))
 				}

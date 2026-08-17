@@ -2,11 +2,12 @@
 import { site } from '../data/site';
 
 const reversedEmail = site.email.split('').reverse().join('');
+const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
 	<div class="container site-footer__inner">
-		<img class="site-footer__banner" src={site.kidsBanner} alt="" width="1243" height="250" />
+		<img class="site-footer__banner" src={site.kidsBanner} alt="" width="1243" height="250" loading="lazy" />
 
 		<p>
 			<a
@@ -30,4 +31,6 @@ const reversedEmail = site.email.split('').reverse().join('');
 			<span>Činnost spolku je finančně podporována městem Čelákovice.</span>
 		</div>
 	</div>
+
+	<div class="site-footer__legal">© {year} {site.fullName}</div>
 </footer>

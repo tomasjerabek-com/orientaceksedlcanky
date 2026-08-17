@@ -26,9 +26,9 @@ const date = article.data.pubDate.toLocaleDateString('cs-CZ', {
 	image={article.data.image || '/brand/logo.png'}
 	canonical={`/${article.id}/`}
 >
-	<article class="section" style="padding-top: 2.5rem;">
+	<article class="page-shell">
 		<div class="container">
-			<header class="page-hero" style="padding-top: 0;">
+			<header class="page-hero page-hero--card">
 				<p class="meta-row"><time datetime={article.data.pubDate.toISOString()}>{date}</time></p>
 				<h1>{article.data.title}</h1>
 				{article.data.description && <p>{article.data.description}</p>}
