@@ -5,8 +5,8 @@ const path = Astro.url.pathname;
 ---
 
 <header class="site-header">
-	<div class="container site-header__shell">
-		<div class="site-header__inner">
+	<div class="site-header__shell">
+		<div class="container site-header__inner">
 			<a class="brand-link" href="/" aria-label={site.fullName}>
 				<img src={site.logo} alt={site.fullName} width="500" height="230" />
 			</a>
@@ -30,13 +30,17 @@ const path = Astro.url.pathname;
 		</div>
 	</div>
 
-	<nav id="mobile-nav" class="container mobile-nav" aria-label="Mobilní navigace">
-		{
-			site.nav.map((item) => (
-				<a href={item.href}>{item.label}</a>
-			))
-		}
-	</nav>
+	<div class="site-header__mobile">
+		<div class="container">
+			<nav id="mobile-nav" class="mobile-nav" aria-label="Mobilní navigace">
+				{
+					site.nav.map((item) => (
+						<a href={item.href}>{item.label}</a>
+					))
+				}
+			</nav>
+		</div>
+	</div>
 </header>
 
 <script>
