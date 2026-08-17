@@ -383,7 +383,6 @@ p {
 
 .hero__logo {
 	width: min(100%, 44rem);
-	filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.35)) brightness(0) invert(1);
 	margin-bottom: 1rem;
 }
 
