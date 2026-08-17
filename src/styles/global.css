@@ -381,16 +381,6 @@ p {
 	box-shadow: 0 0 12px var(--orange-glow);
 }
 
-.hero__logo {
-	width: min(100%, 44rem);
-	margin-bottom: 1rem;
-}
-
-.hero__logo img {
-	width: 100%;
-	height: auto;
-}
-
 .hero h1 {
 	position: absolute;
 	width: 1px;
