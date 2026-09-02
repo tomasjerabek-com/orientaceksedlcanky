@@ -3,7 +3,7 @@
     <title>Orienťáček</title>
     <link href="https://orientaceksedlcanky.cz/feed.xml" rel="self" />
     <link href="https://orientaceksedlcanky.cz" />
-    <updated>2026-09-02T16:26:48+02:00</updated>
+    <updated>2026-09-02T20:09:38+02:00</updated>
     <author>
         <name>Tomáš Jeřábek</name>
     </author>
@@ -20,12 +20,7 @@
 
         <updated>2026-09-02T15:59:51+02:00</updated>
             <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://orientaceksedlcanky.cz/media/posts/14/plakat_zavod_2025_FB-2.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://orientaceksedlcanky.cz/media/posts/14/orientacek_zavod_2026.png" alt="" width="3368" height="4764" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://orientaceksedlcanky.cz/media/posts/14/responsive/orientacek_zavod_2026-xs.png 300w ,https://orientaceksedlcanky.cz/media/posts/14/responsive/orientacek_zavod_2026-sm.png 480w ,https://orientaceksedlcanky.cz/media/posts/14/responsive/orientacek_zavod_2026-md.png 768w"></figure>
-            ]]>
-        </content>
+        <content></content>
     </entry>
     <entry>
         <title>Dotazník</title>
