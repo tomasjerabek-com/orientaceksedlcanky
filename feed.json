@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://orientaceksedlcanky.cz/zavod-v-parku-na-zajezde-2025-2/",
+            "url": "https://orientaceksedlcanky.cz/zavod-v-parku-na-zajezde-2025-2/",
+            "title": "Závod v parku na Zájezdě 2026",
+            "content_html": "<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://orientaceksedlcanky.cz/media/posts/14/orientacek_zavod_2026.png\" alt=\"\" width=\"3368\" height=\"4764\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://orientaceksedlcanky.cz/media/posts/14/responsive/orientacek_zavod_2026-xs.png 300w ,https://orientaceksedlcanky.cz/media/posts/14/responsive/orientacek_zavod_2026-sm.png 480w ,https://orientaceksedlcanky.cz/media/posts/14/responsive/orientacek_zavod_2026-md.png 768w\"></figure>",
+            "image": "https://orientaceksedlcanky.cz/media/posts/14/plakat_zavod_2025_FB-2.jpg",
+            "author": {
+                "name": "Tomáš Jeřábek"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-09-02T15:59:51+02:00",
+            "date_modified": "2026-09-02T16:26:48+02:00"
+        },
+        {
             "id": "https://orientaceksedlcanky.cz/dotaznik/",
             "url": "https://orientaceksedlcanky.cz/dotaznik/",
             "title": "Dotazník",
@@ -141,21 +155,6 @@
             ],
             "date_published": "2024-03-20T11:29:00+01:00",
             "date_modified": "2024-12-20T11:40:41+01:00"
-        },
-        {
-            "id": "https://orientaceksedlcanky.cz/prochazka-po-vsi/",
-            "url": "https://orientaceksedlcanky.cz/prochazka-po-vsi/",
-            "title": "Procházka po vsi",
-            "summary": "V průběhu léta je také ideální čas na to si projít a prozkoumat Sedlčánky a Císařskou Kuchyni s pomocí mapy,&hellip;",
-            "content_html": "<p>V průběhu léta je také ideální čas na to si projít a prozkoumat Sedlčánky a Císařskou Kuchyni s pomocí mapy, kterou Jirka s Dádou připravili pro setkání rodáků:<br><br><a href=\"https://rodaci.sedlcanky.cz/prochazka-po-vsi\">https://rodaci.sedlcanky.cz/prochazka-po-vsi</a></p>",
-            "image": "https://orientaceksedlcanky.cz/media/posts/6/objev-sck.jpg",
-            "author": {
-                "name": "Tomáš Jeřábek"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-12-23T11:37:00+01:00",
-            "date_modified": "2024-12-20T11:39:18+01:00"
         }
     ]
 }
